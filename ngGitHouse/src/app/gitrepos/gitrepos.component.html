@@ -1,0 +1,17 @@
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Stars</th>
+            <th>Forks</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let git of gitRepoList">
+            <td><a href="{{git.htmlUrl}}" target="_blank">{{git.name}}</a></td>
+            <td>{{git.stars}}</td>
+            <td>{{git.forks}}</td>            
+        </tr>        
+    </tbody>
+</table>
