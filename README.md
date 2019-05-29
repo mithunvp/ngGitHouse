@@ -3,7 +3,7 @@ Using Angular inside ASP.NET MVC 5 with Angular CLI using Visual Studio 2017
 
 ## How to run the applicaiton?
 * Clone or Fork the this repo
-* Run npm install to download all node modules
+* Run **npm install** to download all node modules. This is a mandatory step, needs NodeJs installed
 * Run the **ng build --watch** command from root folder to run Angular application
 * F5 or run from Visual Studio IDE to load both MVC & Angular. Navigate to **Contacts** to see in action
 
