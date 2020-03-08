@@ -1,5 +1,5 @@
 # ngGitHouse
-Using Angular inside ASP.NET MVC 5 with Angular CLI using Visual Studio 2017
+Using Angular 9 inside ASP.NET MVC 5 with Angular CLI using Visual Studio 2017/ 2019
 
 ## How to run the applicaiton?
 * Clone or Fork the this repo
