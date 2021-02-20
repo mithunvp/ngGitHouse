@@ -27,7 +27,8 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+    <LangVersion>6</LangVersion>
+    <TypeScriptToolsVersion>4.1</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -177,10 +178,13 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\libs\favicon.ico" />
+    <Content Include="Scripts\libs\index.html" />
+    <Content Include="Scripts\libs\styles.css" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-	<Content Include="Scripts\libs\*.js" />
+    <Content Include="Scripts\libs\*.js" />
     <Content Include="src\app\app.component.css" />
     <Content Include="src\app\app.component.html" />
     <Content Include="src\app\gitrepos\gitrepos.component.css" />
@@ -209,6 +213,15 @@
     <Content Include="src\tsconfig.spec.json" />
     <Content Include="src\tslint.json" />
     <Content Include="tsconfig.json" />
+    <Content Include="Scripts\libs\main-es2015.js.map" />
+    <Content Include="Scripts\libs\main-es5.js.map" />
+    <Content Include="Scripts\libs\polyfills-es2015.js.map" />
+    <Content Include="Scripts\libs\polyfills-es5.js.map" />
+    <Content Include="Scripts\libs\runtime-es2015.js.map" />
+    <Content Include="Scripts\libs\runtime-es5.js.map" />
+    <Content Include="Scripts\libs\styles.css.map" />
+    <Content Include="Scripts\libs\vendor-es2015.js.map" />
+    <Content Include="Scripts\libs\vendor-es5.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
